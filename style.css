@@ -66,8 +66,24 @@ button{
     padding: 0 23px;
 }
 
-.button:hover{
+.button:not(:disabled)hover{
     filter: brightness(0.5);
+}
+
+.answer:disabled{
+    cursor: not-allowed;
+}
+
+.final-message{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.final-message span{
+    display: block;
+    margin-top: 8px;
+
 }
 
 .hide{
