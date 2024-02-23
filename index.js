@@ -108,10 +108,10 @@ const questions = [
    {
        question: "Qual era o nome original do grupo Fifth Harmony?",
        answer: [ 
-        { text: "Fab Five", incorrect: false},
+        { text: "Fab Five", correct: false},
         { text: "Lylas", correct: true},
-        { text: "Harmonize", incorrect: false} ,
-        { text: "Girl Power", incorrect: false},
+        { text: "Harmonize", correct: false} ,
+        { text: "Girl Power", correct: false},
       ],
    },
    {

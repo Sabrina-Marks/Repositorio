@@ -97,3 +97,18 @@ button{
 .incorrect{
     background-color: red;
 }
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .question-container{
+        width: 50vw;
+    }
+    .answer-container{
+        width: 25vw;
+    }
+    
+}
