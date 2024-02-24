@@ -99,16 +99,16 @@ button{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 2000px) and (min-width: 800px) {
     .container{
-        display: block;
-        background-image: none;
+        margin: 1em 2em
     }
-    .question-container{
-        width: 50vw;
+    .answer button{
+        margin: 2px;
     }
-    .answer-container{
-        width: 25vw;
-    }
-    
+   
+}
+
+.container{
+    align-items: center;
 }
